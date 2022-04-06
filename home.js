@@ -1,7 +1,7 @@
 
-let myLog=function logMessage(fname,lname){
-    console.log(fname);
-    console.log(lname);
+function logMessage(value){
+    return 2*value;
+   
 }
 
-myLog("Nishant","ABC");
+console.log(logMessage(2));
