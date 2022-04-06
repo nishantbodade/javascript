@@ -1,9 +1,11 @@
 let person={
     name:'Nishant',
     age:20,
-    partTime:true
+    partTime:true,
+    showInfo:function(realage){
+        showMessage(this.name+realage);
+    }
 };
 
-person['age']=33;//person.age=33  both same and can be use
+person.showInfo(22);
 
-showMessage(person.age);
