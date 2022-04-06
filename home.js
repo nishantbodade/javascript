@@ -1,6 +1,18 @@
-if(+(1.1+1.3).toFixed(2)=== 2.4){   //+ will convert string to number ,toFixed return string up to two decimal
-    showMessage("true");    
+let price=5;
+
+if(price >5){
+    showMessage("true");
+}else{
+    showMessage("false");
 }
+
+/*
+if(price >5){
+    showMessage("true");
+}else if(price===5){
+    showMessage("false");    valid syntax
+}
+*/
 
 
 
