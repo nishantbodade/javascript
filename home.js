@@ -1,18 +1,22 @@
-let price=5;
 
-if(price >5){
+
+if(1 === "1"){  //return false,stricky equal,no type conversion
     showMessage("true");
 }else{
     showMessage("false");
 }
 
+
 /*
-if(price >5){
+if(1 == "1"){  //return trur,convert the number type
     showMessage("true");
-}else if(price===5){
-    showMessage("false");    valid syntax
+}else{
+    showMessage("false");
 }
+
 */
+
+
 
 
 
