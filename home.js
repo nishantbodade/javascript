@@ -1,9 +1,10 @@
-let saved;
+let person={
+    firstName:"Nishant",
+    lastName:"Bodade"
+    
+};
 
-showMessage(saved);
-console.log(saved);
-saved=null;
-console.log(saved);
+showMessage(person.firstName);
 
 
 
