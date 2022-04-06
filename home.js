@@ -1,6 +1,6 @@
-const price=20.2;
+let price=20.2;//       var price=20.2
 
-//price=55;
+price=55;
                             
 
 showMessage(price);
