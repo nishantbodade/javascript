@@ -1,10 +1,8 @@
-let person={
-    firstName:"Nishant",
-    lastName:"Bodade"
-    
-};
+let price=20;
 
-showMessage(person.firstName);
+if(20 === price){       //20!==price
+    showMessage("Discount");
+}
 
 
 
