@@ -1,6 +1,7 @@
 
-let myLog=function logMessage(){
-    console.log("in a functaion");
+let myLog=function logMessage(fname,lname){
+    console.log(fname);
+    console.log(lname);
 }
 
-myLog();
+myLog("Nishant","ABC");
