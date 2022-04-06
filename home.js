@@ -1,7 +1,12 @@
-let msg="Nishant";
-msg=msg.length;//msg=msg.toUpperCase();
+let msg=123;
+let amount="123";
 
-showMessage(msg);
+msg=msg.toString();
+amount=Number.parseInt(amount);
+
+
+//showMessage(typeof msg);
+showMessage(typeof amount);
 
 
 
