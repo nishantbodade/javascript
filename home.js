@@ -1,6 +1,6 @@
 
-function logMessage(){
+let myLog=function logMessage(){
     console.log("in a functaion");
 }
 
-logMessage();
+myLog();
