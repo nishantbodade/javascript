@@ -6,6 +6,8 @@ let person={
         showMessage(this.name+realage);
     }
 };
-
-person.showInfo(22);
-
+function incrementAge(p){
+    p.age++;
+}
+incrementAge(person)
+showMessage(person.age);
