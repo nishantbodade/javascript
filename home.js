@@ -1,4 +1,4 @@
-
+'use strict';
 const value=Array.of('a','b','cc');
 console.log(value.indexOf('b'));
 
