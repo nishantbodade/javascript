@@ -1,19 +1,4 @@
-let button=document.getElementById('see-review');
 
-button.addEventListener('click',function(){  //annonimus function
-
-    const review=document.getElementById('review');
-
-    if(review.classList.contains('d-none')){
-
-        review.classList.remove('d-none');
-        button.textContent='Close Review';
-
-    }else{
-        review.classList.add('d-none');
-        button.textContent='See Review';
-    }
-
-  
-
-})
+const value=Array.of(1,2,3);//const value=[1,2,3];   both are same
+console.log(value);
+console.log(Array.isArray(value));
