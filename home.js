@@ -1,6 +1,3 @@
-let now=new Date();
-console.log(now.toDateString());
-console.log(Math.abs(-98));
-console.log(Math.random().toString());
-let s="hello";
-console.log(s.charAt(2));
+let header=document.getElementById('message');
+header.style.color='green';
+header.style.fontWeight='100';// use camel case in javascript ,font-Weight willl not work here, use FontWeight instead
