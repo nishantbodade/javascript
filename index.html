@@ -96,6 +96,18 @@ let _products = [
         console.log(JSON.stringify(item));
       }
     }
+
+        // Use of a label.
+    // NOTE: I don't recommend use of labels as this leads to spaghetti code
+    function labelSample() {
+      even:
+      for (let index = 1; index <= 10; index++) {
+        if (index % 2 == 1) {
+          continue even;
+        }
+        console.log(index);
+      }
+    }
  </script>
 </body>
 
