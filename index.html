@@ -76,6 +76,16 @@ let _products = [
       }
       console.log(letters);
     }
+
+     // Use the break statement
+     function breakSample() {
+      for (const item of _products) {
+        if (item.standardCost < 20) {
+          break;
+        }
+        console.log(JSON.stringify(item));
+      }
+    }
  </script>
 </body>
 
