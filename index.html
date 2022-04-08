@@ -155,7 +155,26 @@ function assignmentSample() {
       result = price < 1500 ? "'less than 1500'" : "'greater than 1500'";
       console.log("ternary = " + result);
     }
-	
+	   
+    
+// Illustrate usage of 'use strict'
+      function useStrictSample() {
+      'use strict' // Comment out this line to see the following code work
+
+      // Can't use a variable without 'var' or 'let' keywords
+      let result = 10;
+      console.log(result);
+
+      // Can't use reserved words as variables
+      //let eval = 10;
+      //let arguments = "some args";
+
+      // Can't delete a variable
+      //delete result;
+
+      // Can't delete a function
+      //delete useStrictSample;
+    }
  
  </script>
 </body>
