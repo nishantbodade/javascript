@@ -127,6 +127,33 @@ let _newProducts = [{
       console.log(arg3);
       console.log("");
     }
+
+  	
+    // Use with object literals
+    function objectLiterals() {
+      let product = {
+        productID: 680,
+        name: "HL Road Frame - Black, 58",
+        standardCost: 1059.31,
+        listPrice: 1431.50
+      };
+
+      // The following performs a shallow-copy
+      // Similar to Object.assign()
+      let prod2 = { ...product };
+
+      // Change the newly copied object
+      prod2.productID = 999;
+
+      // Display the objects
+      console.log(product);
+      console.log(prod2);
+
+      // Display the changed value
+      console.log("");
+      console.log(product.productID);
+      console.log(prod2.productID);
+    }
  </script>
 </body>
 
