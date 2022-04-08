@@ -34,6 +34,24 @@
         function eventHandler(ctl) {
       console.log(ctl.toString());
     }
+
+      // Object literal
+      function objectLiteral() {
+      let product = {
+        "productID": 680,
+        "name": "HL Road Frame - Black, 58",
+        "standardCost": 1059.31,
+        "listPrice": 1431.50,
+        grossProfit: function () {
+          return (this.listPrice - this.standardCost)
+            .toLocaleString('en-US', {
+              style: 'currency', currency: 'USD'
+            });
+        }
+      };
+
+      console.log(product.grossProfit());
+    }
   </script>
 </body>
 
