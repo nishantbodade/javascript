@@ -85,7 +85,19 @@ let _newProducts = [{
       console.log(arr);
       console.log(arr2);
     }
-  </script>
+ 
+    function copyObjectArrays() {
+      // Careful with object arrays
+      // The array is copied, but the underlying objects are still accessed by reference
+      let diff = [..._products];
+      diff[0].productID = 999;
+      console.log(_products[0].productID);
+      console.log(diff[0].productID);
+    }
+ 
+ 
+ 
+ </script>
 </body>
 
 </html>
