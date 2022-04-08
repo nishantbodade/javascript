@@ -42,6 +42,22 @@ function simpleTryCatch() {
         console.log("In the 'finally' block");
       }
     }
+
+     // A finally statement, catch block does NOT run
+     function finallySuccessSample() {
+      let result;
+      let x = 100;
+
+      try {
+        console.log("An error won't occur.");
+        result = x / 10;
+      } catch (error) {
+        console.log("In the 'Catch' block: " + error.message);
+      }
+      finally {
+        console.log("In the 'finally' block");
+      }
+    }
 </script>
 </body>
 
