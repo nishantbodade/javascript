@@ -95,7 +95,14 @@ let _newProducts = [{
       console.log(diff[0].productID);
     }
  
- 
+  // Concatentation
+  function concatenateArray() {
+      let allProducts = _products.concat(_newProducts);
+      console.log(allProducts.length);
+
+      let spProducts = [..._products, ..._newProducts];
+      console.log(spProducts.length);
+    }
  
  </script>
 </body>
