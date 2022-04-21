@@ -3,9 +3,13 @@
 
 let person={
   firstName:'abc',
-  lastname:'xyz'
+  lastname:'xyz',
+
+  isAdult:function(){
+    return true;
+  }
 };
 
-display(person.firstName);
+display(person.isAdult());
 
 })();
