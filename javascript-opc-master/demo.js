@@ -1,15 +1,23 @@
 'use strict'; 
 (function() {
 
-let person={
-  firstName:'abc',
-  lastname:'xyz',
+  function registeruser(firstName,lastname){
+    let person={
+      firstName,
+      lastname
+    
+    };
 
-  isAdult:function(){
-    return true;
+    display(person);
+
   }
-};
 
-display(person.isAdult());
+  registeruser('xx','yy');
+
+  
+
+
+
+
 
 })();
