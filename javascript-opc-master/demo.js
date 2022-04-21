@@ -4,11 +4,14 @@
   function registeruser(firstName,lastname){
     let person={
       firstName,
-      lastname
+      lastname,
+      isAdult(){
+        return true;
+      }
     
     };
 
-    display(person);
+    display(person.isAdult());
 
   }
 
