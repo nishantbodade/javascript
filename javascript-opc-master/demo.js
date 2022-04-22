@@ -1,20 +1,21 @@
 'use strict'; 
 (function() {
 
-  let person={
-    firstName:'abc',
-  lastname:'xyz'
 
-  };
+  function person(firstname,lastname,age){
+    this.firstname=firstname;
+    this.lastname-lastname;
+    this.age=age;
+    this.isAdult=function(){
+      return this.age>20;
+    }
+  }
+
+  let jim=new person('jim','cooper',21);
+
+  display(jim.isAdult());
 
 
-  let person2={};
-
-  Object.assign(person2,person);//Object.assign({},person2,person); will merge whatevr in right to first object ,immutable objects
-
-  display(person===person2);
-
-  display(person2);
 
 
 
