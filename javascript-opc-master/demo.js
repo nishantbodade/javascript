@@ -13,7 +13,7 @@
 
   let jim=new person('jim','cooper',21);
 
-  display(jim.isAdult());
+  display(jim['extracall']='extra');
 
 
 
