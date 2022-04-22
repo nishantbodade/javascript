@@ -7,11 +7,14 @@
 
   };
 
-  //display(Object.keys(person));
 
-  for(let propertyname in person){
-    display(propertyname);
-  }
+  let person2={};
+
+  Object.assign(person2,person);//Object.assign({},person2,person); will merge whatevr in right to first object ,immutable objects
+
+  display(person===person2);
+
+  display(person2);
 
 
 
